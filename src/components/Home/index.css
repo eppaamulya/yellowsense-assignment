@@ -1,0 +1,21 @@
+.home-bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    font-size: 23px;
+    margin: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 250px;
+    height: 80px;
+}
