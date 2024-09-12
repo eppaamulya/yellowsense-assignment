@@ -50,19 +50,21 @@ class App extends Component {
   render() {
     const {jobsList, bookmarkedJobs} = this.state;
     return (
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route 
-          exact 
-          path="/jobs" 
-          element={<Jobs jobsList={jobsList} bookmarkedJobs={bookmarkedJobs} toggleBookmark={this.toggleBookmark}/>} 
-        />
-        <Route 
-          exact 
-          path="/bookmarks" 
-          element={<Bookmarks bookmarkedJobs={bookmarkedJobs} />} 
-        />
-      </Routes>
+      <>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route 
+            exact 
+            path="/jobs" 
+            element={<Jobs jobsList={jobsList} bookmarkedJobs={bookmarkedJobs} toggleBookmark={this.toggleBookmark}/>} 
+          />
+          <Route 
+            exact 
+            path="/bookmarks" 
+            element={<Bookmarks bookmarkedJobs={bookmarkedJobs} />} 
+          />
+        </Routes>
+      </>
     );
   }
 }
