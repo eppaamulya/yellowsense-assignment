@@ -3,6 +3,8 @@
     flex-direction: column;
     justify-content: center;
     position: relative;
+    background-color: #e4e4e4;
+    
 
 }
 
@@ -10,6 +12,7 @@
     font-size: 30px;
     text-align: center;
     margin-top: 40px;
+    color: rgb(13, 1, 31);
 }
 
 .jobs-list {
@@ -22,7 +25,7 @@
 
 .jobs-list-item {
     list-style-type: none;
-    background-color: pink;
+    background-color: rgb(212, 211, 212);
     padding: 50px;
     margin: 30px;
     width: 60%;
@@ -30,26 +33,31 @@
 }
 
 .star-button {
-    padding: 5px 11px;
+    padding: 10px 30px;
     border-radius: 5px;
     border: 1px solid #595858;
     margin-left: 90%;
+    margin-top: 30px;
 }
 
 .icon {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .close-button {
     position: absolute;
     top: 40px;
     right: 40px;
-    padding: 5px 10px;
+    padding: 7px 13px;
     cursor: pointer;
+    background-color: #cbcaca;
+    border: 1px solid rgb(68, 68, 68);
+    border-radius: 5px;
+    color: black;
 }
 
 .close-icon {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .para-1 {
@@ -59,6 +67,8 @@
 
 .para-2 {
     font-size: 18px;
+    color: rgb(13, 1, 31);
+
 }
 
 .para-3 {
@@ -76,4 +86,22 @@
 
 .hr-line {
     width: 100%;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cont-icon {
+    font-size: 20px;
+    margin-right: 10px;
 }

@@ -3,8 +3,9 @@ import Home from './components/Home';
 import Jobs from './components/Jobs';
 import Bookmarks from './components/Bookmarks';
 
-import { Route, Routes } from 'react-router-dom';
 import { Component } from 'react';
+import { Route, Routes } from 'react-router-dom';
+
 
 class App extends Component {
 

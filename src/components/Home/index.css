@@ -18,4 +18,8 @@
     cursor: pointer;
     width: 250px;
     height: 80px;
+    background-color: rgb(212, 211, 212);
+    border: 1px solid rgb(68, 68, 68);
+    color: rgb(13, 1, 31);
+    font-weight: 700;
 }

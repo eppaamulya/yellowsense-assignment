@@ -12,8 +12,7 @@ class Home extends Component {
                 <div className='home-container'>
                     <Link to="/jobs"><button className='button'>Jobs</button></Link>
                     <Link to="/bookmarks"><button className='button'>Bookmarks</button></Link>
-                </div>
-               
+                </div>   
             </div>
         )
     }
